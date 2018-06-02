@@ -1,0 +1,7 @@
+{
+  "ignore": ["node_modules/**"],
+  "plugins": ["external-helpers"],
+  "presets": [
+    ["env", { "useBuiltIns": "usage", "modules": false, "targets": { "node": "8.11.2" } }]
+  ]
+}
